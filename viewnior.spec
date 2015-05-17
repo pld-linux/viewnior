@@ -5,6 +5,7 @@ Release:	1
 License:	GPL v3+
 Group:		X11/Applications
 Source0:	https://github.com/xsisqox/Viewnior/archive/%{name}-%{version}.tar.gz
+# Source0-md5:	3cecdc212724d5963257bebf025943f5
 Source1:	viewnior.appdata.xml
 URL:		http://siyanpanayotov.com/project/viewnior/
 BuildRequires:	desktop-file-utils
