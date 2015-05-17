@@ -10,11 +10,12 @@ URL:		http://siyanpanayotov.com/project/viewnior/
 BuildRequires:	desktop-file-utils
 BuildRequires:	exiv2-devel >= 0.21
 BuildRequires:	gdk-pixbuf2-devel >= 2.4.0
-BuildRequires:	gettext
+BuildRequires:	gettext-devel
 BuildRequires:	glib2-devel >= 2.32
 BuildRequires:	gnome-common
 BuildRequires:	gtk+2-devel >= 2.20
 BuildRequires:	intltool
+BuildRequires:	libtool
 BuildRequires:	shared-mime-info >= 0.20
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
