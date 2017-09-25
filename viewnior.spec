@@ -2,7 +2,7 @@ Summary:	Elegant image viewer
 Summary(pl.UTF-8):	Elegancka przeglądarka obrazków
 Name:		viewnior
 Version:	1.6
-Release:	1
+Release:	2
 License:	GPL v3+
 Group:		X11/Applications
 #Source0Download: https://github.com/xsisqox/Viewnior/releases
