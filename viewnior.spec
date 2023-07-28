@@ -2,7 +2,7 @@ Summary:	Elegant image viewer
 Summary(pl.UTF-8):	Elegancka przeglądarka obrazków
 Name:		viewnior
 Version:	1.8
-Release:	1
+Release:	2
 License:	GPL v3+
 Group:		X11/Applications
 #Source0Download: https://github.com/hellosiyan/Viewnior/tags
@@ -75,6 +75,8 @@ rm -rf $RPM_BUILD_ROOT
 %ninja_install -C build
 
 desktop-file-validate $RPM_BUILD_ROOT%{_desktopdir}/%{name}.desktop
+
+%{__mv} $RPM_BUILD_ROOT%{_localedir}/{nb_NO,nb}
 
 %find_lang %{name}
 
