@@ -1,0 +1,14 @@
+--- Viewnior-viewnior-1.8/src/uni-exiv2.cpp.orig	2021-11-21 15:49:46.000000000 +0100
++++ Viewnior-viewnior-1.8/src/uni-exiv2.cpp	2023-07-28 09:45:56.518065839 +0200
+@@ -27,6 +27,11 @@
+ 
+ #define ARRAY_SIZE(array) (sizeof array/sizeof(array[0]))
+ 
++#if EXIV2_TEST_VERSION (0,28,0)
++#define AutoPtr UniquePtr
++#define AnyError Error
++#endif
++ 
+ static Exiv2::Image::AutoPtr cached_image;
+ 
+ extern "C"

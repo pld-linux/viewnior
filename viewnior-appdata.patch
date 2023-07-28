@@ -1,9 +1,0 @@
---- Viewnior-viewnior-1.6/data/viewnior.appdata.xml.orig	2015-12-17 17:33:39.000000000 +0100
-+++ Viewnior-viewnior-1.6/data/viewnior.appdata.xml	2016-09-11 07:48:44.453621283 +0200
-@@ -20,4 +20,4 @@
-     <screenshot>http://siyanpanayotov.com/wp-content/uploads/2014/04/vnr_navigation_window.png</screenshot>
-   </screenshots>
-   <updatecontact>hello_at_siyanpanayotov.com</updatecontact>
--</application>
-\ No newline at end of file
-+</component>
