@@ -62,7 +62,7 @@ Możliwości obejmują między innymi:
 
 %prep
 %setup -qn Viewnior-%{name}-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %meson build
