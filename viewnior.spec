@@ -20,7 +20,7 @@ BuildRequires:	libstdc++-devel
 BuildRequires:	meson >= 0.43.0
 BuildRequires:	ninja >= 1.5
 BuildRequires:	pkgconfig
-BuildRequires:	rpmbuild(macros) >= 1.736
+BuildRequires:	rpmbuild(macros) >= 2.042
 BuildRequires:	shared-mime-info >= 0.20
 Requires(post,postun):	desktop-file-utils
 Requires(post,postun):	gtk-update-icon-cache
